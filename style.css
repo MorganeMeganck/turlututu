@@ -1,0 +1,164 @@
+/*toolbar*/
+.toolbar{
+  background-color: #333333;
+  color: white;
+  margin: 0;
+  display: flex;
+  height:100%;
+  align-items: center;
+}
+.pages{
+ display: flex;
+ flex:5;
+ list-style-type: none;
+ margin: 0;
+ padding-left: 150px;
+
+}
+ul {
+  height:100%;
+  display: flex;
+  align-items: center;
+}
+li a {
+padding-left: 5px;
+ margin: 15px;
+ background-color:#333333;
+ color:white;
+ text-decoration:none;
+ text-align:center;
+ font-weight: bold;
+}
+.log{
+  display: flex;
+  flex:1;
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 150px;
+  background-color:#333333;
+}
+/*fintoolbar*/
+/*header*/
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.start{
+  border: 2px solid white;
+  border-radius: 8px;
+  padding:12px;
+  background-color: orange;
+  text-decoration: none;
+  color:white;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 11%;
+}
+.tete{
+display: flex;
+background-color: #008FCA ;
+}
+.photo{
+flex: 1;
+padding-left: 10%;
+}
+.entete{
+flex: 2;
+}
+.plug{
+  font-size: 30px;
+  color:white;
+}
+/*finheader*/
+
+.slogan{
+  font-size: 30px;
+  text-align: center;
+}
+.idees{
+  padding-left: 50px;
+  list-style-type: none;
+  display: flex;
+}
+.idees li {
+  flex:1;
+}
+h2{
+  padding-left: 50px;
+}
+.texte {
+  padding-left: 50px;
+}
+.quality{
+  background-color: #008FCA;
+  color: white;
+}
+.slogan2{
+  font-size: 25px;
+  text-align: center;
+}
+.partenaires{
+  background-color: #EDEDEE;
+  text-align: center;
+}
+.bottombuttons{
+list-style-type: none;
+padding-left: 50px;
+}
+.bottombuttons li {
+  padding: 10px;
+}
+.toolbar2{
+  background-color: #333333;
+  color: white;
+  display: flex;
+}
+.bottomtools{
+list-style-type: none;
+padding-left: 50px;
+}
+.bottomtools li {
+  padding: 10px;
+}
+
+/*bottom*/
+.bottombuttons{
+display: flex;
+justify-content: center;
+}
+.bottombuttons li{
+  border: 2px solid #004d99;
+  border-radius: 8px;
+  padding:20px;
+  background-color: #004d99;
+  text-decoration: none;
+  color:white;
+  text-align: center;
+  font-weight: bold;
+}
+#start{
+  border: 2px solid white;
+  border-radius: 8px;
+  padding:14px;
+  background-color: orange;
+  text-decoration: none;
+  color:white;
+  text-align: center;
+  font-weight: bold;
+}
+.bottomtools li{
+  border-right: 1px dotted white;
+}
+#noborder{
+  border-right: 1px dotted #333333;
+}
+.toolbar2{
+  height:100%;
+  display: flex;
+  align-items: center;
+
+}
+.copyright{
+  padding-left: 600px;
+  list-style-type: none;
+}
